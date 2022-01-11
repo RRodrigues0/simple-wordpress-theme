@@ -1,0 +1,11 @@
+main {
+  .container {
+    padding-top: rem(50px);
+    padding-bottom: rem(50px);
+
+    @include breakpoint(large) {
+      padding-top: rem(100px);
+      padding-bottom: rem(100px);
+    }
+  }
+}

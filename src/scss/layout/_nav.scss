@@ -1,0 +1,29 @@
+.navbar {
+  position: relative;
+  width: 100%;
+  background: $light;
+  padding: 1rem 0;
+
+  .navbar-collapse {
+    justify-content: flex-end;
+
+    ul {
+      padding-left: 0;
+      margin-top: 1rem
+    }
+
+  }
+
+  .branding {
+    display: block;
+
+    img {
+      width: rem(60px);
+      height: auto;
+
+      @include breakpoint (large) {
+        width: rem(80px);
+      }
+    }
+  }
+}

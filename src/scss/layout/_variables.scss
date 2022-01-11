@@ -1,0 +1,23 @@
+// Colors
+$light: #ffffff;
+$dark: #252831;
+$primary: #21759b;
+
+// Font
+$main-font: "Roboto", sans-serif;
+$icon-font: "Font Awesome 5 Pro";
+$font-size: 16px;
+$font-weight: 300;
+
+// Animation
+$transition: 500ms cubic-bezier(0.6, 0, 0, 0.5);
+
+// Breakpoints
+$breakpoint-default: 575px; //from 0px to 575px
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-giant: 1200px;
+$breakpoint-huge: 1400px;
+
+
